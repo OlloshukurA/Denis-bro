@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.wrapper {
+    max-width: 920px;
+    width: 100%;
+    margin: 32px auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding-bottom: 31px;
+}
+
+ul li a{
+    color:  #828282;;
+}
+
+
+.house li a{
+    transition: all 0.5 ease;
+}
+
+.house:hover{
+    transform: scale(1.05);
+}
+
+.house:hover {
+    color: #070707;
+    line-height: 22px;
+    font-weight: 600;
+    font-size: 25px;
+    
+}
+
+.border{
+    border-bottom: 2px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.border:hover{
+    color: rgb(28, 106, 196);
+}
+
+.denis {
+    padding-top: 39px;
+    font-size: 48px;
+}
+
+.Ux {
+    color: #828282;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 30px;
+}
+
+.rotate {
+    font-size: 16px;
+   
+    color: #828282;
+    transform: rotate(-90deg);
+    
+}
+
+.main__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.denis__img-bro {
+    position: absolute;
+    width: 940.61px  ;
+    height: 387px; 
+    left: 430.69px;
+    top: 276.94px;
+    background: url(./denis__bro/denis.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 224px;
+    margin: 0 auto;
+}
+
+.about__me {
+    
+position: absolute;
+width: 100%;
+height: 506px;
+left: 0px;
+top: 768px;
+background: #F6F6F6;
+}
+
+.about__me h1{
+    color: black;
+    position: absolute;
+    top: 150px;
+    left: 830px;
+    font-size: 34px;
+    margin-bottom: 17px;
+}
+
+.main-p {
+    text-align: center;
+    color: black;
+    position: absolute;
+    top: 210px;
+    left: 720px;
+    line-height: 22px;
+}
+
+.container {
+    padding-top: 1200px;
+    text-align: center;
+}
+
+.work {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 18px;
+    color: #070707;
+}
+
+.container {
+    max-width: 920px;
+    width: 100%;
+    margin: 32px auto;
+}
+
+.collection{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 84px;
+    
+}
+
+
+.paragrapghs {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+}
+
+.stars {
+  
+    padding-top: 41px;
+   
+}
+
+.first__star {
+    position: absolute;
+    left: 429px;
+}
+
+.second__star {
+    position: absolute;
+    left: 727px;
+}
+
+.third__star {
+    position: absolute;
+    left: 1280px;
+}
+
+.last__star {
+    position: absolute;
+    left: 1010px;
+}
+
+
+
+
+.portfolio {
+    padding-bottom: 100px;
+}
+
+.header__header{
+    padding-top: 223px;
+    font-size: 34px;
+    line-height: 42px;
+    display: inlineblocks;
+    justify-content: center;
+    align-items: center;
+}
+
+.honey__girl{
+    padding-top: 50px;
+    padding-left: -10px;
+    position: absolute;
+    top: 2220px;
+    right: 450px;
+}
+
+.jumping {
+    padding-top: 700px;
+    background-color: #F6F6F6;
+}
+
+.jumping__header{
+    margin-bottom: 70px;
+}
+
+.reebook__p {
+    padding-top: 45px;
+    font-size: 18px;
+    padding-bottom: 100px;
+}
+
+.awesome__cam{
+    padding-top: 100px;
+}
+
+.awesome__p {
+    background-color: #F6F6F6;
+   padding-top: 96px;
+   padding-bottom: 50px;
+    text-align: center;
+    margin-top: -10px;
+    margin-right: -15px;
+}
+
+.real__contacts {
+    padding-top: 115px;
+}
+
+.real__contacts .last__button {
+  margin-left: 370px;
+  margin-top: 30px;
+}
+
+
+.child__contact{
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.grand__child {
+    padding-top: 21px;
+    font-size: 18px;
+    line-height: 21.83px;
+}
+
+.last__button {
+    border: 1px solid black;
+    width: 181px;
+    height: 42px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.last__button a{
+    color: white;
+}
+
+.last__button:hover{
+    background-color: coral;
+}
+
+
+
+.bottom__icons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 93px;
+    border-spacing: 20px;
+}
+
+
+
+.end {
+    color: #828282;
+    margin-top: 46px;
+}
+
+.house::before{
+    content: "";
+    background-image: url(./denis__bro/photoshop.png);
+
+}
